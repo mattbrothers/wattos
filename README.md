@@ -1,6 +1,6 @@
-![Logo of the project](https://raw.githubusercontent.com/mattbrothers/wattos/master/static/media/twin.1436aa84.jpg)
+![Logo of the project](https://raw.githubusercontent.com/mattbrothers/wattos/master/src/css/images/twin.jpg)
 
-# Wattos Space Emporium
+# Watto's Space Emporium
 
 Offline first progressive React web app (because wifi isn't great in outer space)
 
