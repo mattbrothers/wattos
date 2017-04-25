@@ -1,0 +1,173 @@
+// Import all partials
+@require './_*.styl'
+
+.top
+    position fixed
+    top 2rem
+    right 2rem
+    color white
+    font-wight 700
+    z-index 1
+
+    @media screen and (max-width: 800px) {
+        position absolute
+    }
+
+.ships 
+    display flex
+    flex-wrap wrap
+    align-items center
+    justify-content center
+    height 100vh
+    
+    .ship 
+        background-size cover
+        background-color #111
+        display flex
+        justify-content flex-end
+        flex-direction column
+        padding 4rem
+        cursor pointer
+        transition all 0.2s
+        min-width 100vw
+        min-height 400px
+        height 50vh
+        backface-visibility hidden
+        outline none
+        border none
+        @media screen and (max-width: 800px) {
+            padding 2rem
+        }
+        &:hover
+            opacity 0.85
+.twin
+     background url('images/twin.jpg') center no-repeat
+.y-wing
+     background url('images/y-wing.jpg') center no-repeat
+.t-65
+     background url('images/t-65.jpg') center no-repeat
+.yt-1300
+     background url('images/yt-1300.jpg') center no-repeat
+.alpha-class
+     background url('images/alpha-class.jpg') center no-repeat
+.lambda-class
+     background url('images/lambda-class.jpg') center no-repeat
+.rz-1
+     background url('images/rz-1.jpg') center no-repeat
+.b-wing
+     background url('images/b-wing.jpg') center no-repeat
+
+
+.ship-detail
+    min-height 100vh
+    position relative
+    transition all 0.2s ease-in-out
+    position relative
+
+    .ship-image
+        position fixed
+        height 100vh
+        width 50%
+        padding 4rem
+        background-size cover
+        background-color #333
+        overflow hidden
+        @media screen and (max-width: 800px) {
+            height 80vh
+            position relative
+            width 100%
+            padding 1rem
+        }
+
+        .back 
+            color white
+            text-decoration none
+            transition all 0.2s
+            font-weight bold
+            font-size 2.5rem
+            &:hover 
+                opacity 0.8
+                .arrow
+                    margin-right 5px
+                    margin-left -5px
+
+            .arrow
+                margin-right 0px
+                margin-left 0
+
+    .ship-specs 
+        width 50%
+        margin-left 50%
+        padding 4rem
+        @media screen and (max-width: 800px) {
+            margin-left 0
+            width 100%
+            padding 1rem
+        }
+
+        h5
+            &:empty
+                &:before
+                    content 'n/a'
+
+        .line
+            height 1rem
+            width 20%
+            background linear-gradient(25deg, #7d62cc, #5179cc)
+
+        .buy
+            color: white
+            padding 2rem 4rem
+            margin 4rem 0 0 0
+            cursor pointer
+            font-weight bold
+            border none
+            outline 0
+            background linear-gradient(25deg, #7d62cc, #5179cc)
+            transition all 0.2s
+            @media screen and (max-width: 800px) {
+              font-size 1.5rem
+              margin 2rem 0 2rem 0
+            }
+            &:hover 
+                background linear-gradient(25deg, #7d62cc, #5179cc)
+                transform scale(1.1)
+
+            &[disabled]
+                opacity 0.5
+                cursor default
+
+                &:hover
+                    background linear-gradient(25deg, #7d62cc, #5179cc)
+                    transform scale(1)
+.nope
+    background url('images/twin.jpg') center no-repeat #333
+    background-size cover
+    display flex
+    min-width 100vw
+    min-height 100vh
+    justify-content center
+    align-items center
+    h1
+        color white
+        font-size 10rem
+        font-size 10vw
+        font-weight bold
+
+
+
+
+
+
+
+            
+            
+      
+            
+
+
+
+    
+            
+
+

@@ -1,0 +1,21 @@
+
+
+.ship-detail-appear 
+	transform translateX(-10%)
+	opacity 0.8
+	/*position absolute*/
+	transition all 0.4s
+	display block
+	&.ship-detail-appear-active
+		transform translateX(0)
+		display block
+		opacity 1
+
+.ship-detail-leave
+	transform translate(0)
+	opacity 1
+	transition all 0.4s
+	&.ship-detail-leave-active
+		transform translateX(-10%)
+		opacity 0.8
+

@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+    <title>Watto's Spaceship Emporium</title>
+  </head>
+  <body>
+    <div id="main"></div>
+    <script>
+    	if ('serviceWorker' in navigator) {
+    	 	window.addEventListener('load', function() {
+    			navigator.serviceWorker.register('/service-worker.js');
+    	  	});
+    	}
+    </script>
+  </body>
+</html>
