@@ -1,4 +1,4 @@
-![Logo of the project](https://raw.githubusercontent.com/mattbrothers/wattos/master/src/css/images/twin.jpg)
+![Logo of the project](hhttps://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
 
 # Watto's Space Emporium
 
