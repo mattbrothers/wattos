@@ -17,7 +17,6 @@ class App extends React.Component {
 
 	goToShip(key) {
 		const shipId = key;
-		// const shipUrl = this.state.ships.products[key].name.split(' ').join('-')
 		this.context.router.transitionTo(`/ship/${shipId}`);
 		window.scrollTo(0, 0);
 		this.setState({ 'shipId': shipId} );

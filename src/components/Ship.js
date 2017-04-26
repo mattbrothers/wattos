@@ -15,7 +15,7 @@ class Ship extends React.Component {
 		
 		return (
 			<div
-				tabIndex="1" 
+				tabIndex="0" 
 				aria-label={ this.props.details.name }
 				className={`ship ${ shipName }`}
 				onClick={() => this.props.goToShip(index)}
@@ -34,7 +34,7 @@ class Ship extends React.Component {
 
 
 Ship.propTypes = {
-	details: React.PropTypes.array.isRequired,
+	details: React.PropTypes.object.isRequired,
 	index: React.PropTypes.string.isRequired,
 	goToShip: React.PropTypes.func.isRequired
 }

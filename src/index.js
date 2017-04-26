@@ -6,7 +6,6 @@ import App from './components/App';
 import ShipDetail from './components/ShipDetail';
 import NotFound from './components/NotFound';
 
-// Git pages
 const repo = `/${window.location.pathname.split('/')[1]}`;
 const Root = () => {
 	return (
@@ -21,5 +20,6 @@ const Root = () => {
 }
 
 render(<Root />, document.querySelector('#main'));
+
 
 

@@ -2,7 +2,7 @@
 
 # Watto's Space Emporium
 
-Offline first progressive React web app (because wifi isn't great in outer space)
+Offline first progressive web app (PWA) (because wifi isn't great in outer space)
 
 ## Installing / Getting started
 
@@ -37,5 +37,9 @@ Starts a static server for production build
 * sw-precache 
 * service worker for offline 
 * Stylus
+* A11y
+* Responsive
+* performant
+
 
 
