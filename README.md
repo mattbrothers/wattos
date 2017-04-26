@@ -35,7 +35,7 @@ serve -s build
 [Go to your localhost link localhost:5000](localhost:5000) after you serve -s build
 * open chrome developer tools
 * open the network or application tab and check offline box
-* refresh and navigate with the internets 🎉👀💯
+* refresh and navigate without the internets 🎉👀💯
 
 
 
