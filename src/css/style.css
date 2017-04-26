@@ -313,7 +313,8 @@ p {
   cursor: pointer;
   transition: all 0.2s;
   min-width: 100vw;
-  min-height: 400px;
+  min-height: 300px;
+  max-height: 500px;
   height: 50vh;
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden;

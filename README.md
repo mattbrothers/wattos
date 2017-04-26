@@ -1,10 +1,12 @@
-![Logo of the project](https://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
+[TIE Fighter](https://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
 
 # Watto's Space Emporium
 
 Offline first progressive web app (PWA) (because wifi isn't great in outer space)
 
-## Installing / Getting started
+[Demo at mattbrothers.net/wattos](https://mattbrothers.net/wattos)
+
+## Installing 
 
 ```shell
 npm install
@@ -21,12 +23,22 @@ npm run build
 ```
 
 
-### Deploying / Publishing
+### Deploying Build
 
 ```shell
 npm install -g serve
 serve -s build
 ```
+
+### To test offline mode
+
+[Go to your localhost link localhost:5000](localhost:5000) after you serve -s build
+* open chrome developer tools
+* open the network or application tab and check offline box
+* refresh and navigate with the internets 🎉👀💯
+
+
+
 
 Starts a static server for production build
 

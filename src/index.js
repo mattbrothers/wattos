@@ -6,10 +6,10 @@ import App from './components/App';
 import ShipDetail from './components/ShipDetail';
 import NotFound from './components/NotFound';
 
-const repo = `/${window.location.pathname.split('/')[1]}`;
+// const repo = `/${window.location.pathname.split('/')[1]}`;
 const Root = () => {
 	return (
-		<BrowserRouter basename={repo}>
+		<BrowserRouter basename="/">
 			<div>
 				<Match exactly pattern="/" ignoreScrollBehavior component={App} />
 				<Match exactly pattern="/ship/:shipId" ignoreScrollBehavior component={ShipDetail} />

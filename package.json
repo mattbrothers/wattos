@@ -2,7 +2,6 @@
   "name": "wattos",
   "version": "0.0.1",
   "private": true,
-  "homepage": "https://mattbrothers.github.io/wattos/",
   "devDependencies": {
     "autoprefixer-stylus": "0.10.0",
     "babel-eslint": "^7.1.1",
@@ -12,7 +11,8 @@
     "eslint-plugin-jsx-a11y": "^3.0.2",
     "eslint-plugin-react": "^6.8.0",
     "react-scripts": "0.6.1",
-    "stylus": "0.54.5"
+    "stylus": "0.54.5",
+    "sw-precache": "^5.1.0"
   },
   "dependencies": {
     "history": "4.2.0",
@@ -20,8 +20,7 @@
     "react": "15.3.2",
     "react-addons-css-transition-group": "15.3.2",
     "react-dom": "15.3.2",
-    "react-router": "4.0.0-alpha.4",
-    "sw-precache": "^5.1.0"
+    "react-router": "4.0.0-alpha.4"
   },
   "scripts": {
     "start": "react-scripts start",
