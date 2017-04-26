@@ -1,4 +1,4 @@
-[TIE Fighter](https://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
+![TIE Fighter](https://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
 
 # Watto's Space Emporium
 
