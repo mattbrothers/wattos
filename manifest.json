@@ -1,6 +1,9 @@
 {
-  "short_name": "Wattos Spaceship Emporium",
-  "name": "Wattos",
+  "short_name": "Wattos Ships",
+  "name": "Wattos Spaceship Emporium",
+  "theme_color": "#7d62cc",
+  "background_color": "#111111",
+  "orientation": "portrait",
   "icons": [
     {
       "src": "favicon.ico",
