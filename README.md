@@ -23,7 +23,7 @@ npm run build
 ```
 
 
-### Deploying Build
+### Serving Build
 
 ```shell
 npm install -g serve
@@ -38,9 +38,6 @@ serve -s build
 * refresh and navigate without the internets 🎉👀💯
 
 
-
-
-Starts a static server for production build
 
 ## Features
 
