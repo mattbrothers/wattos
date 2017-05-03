@@ -50,6 +50,7 @@ serve -s build
 * sw-precache 
 * service worker for offline 
 * Stylus
+* localStorage for button persistence on refresh
 * A11y
 * Responsive
 * performant (99/100 Lighthouse score)
