@@ -2,7 +2,9 @@
 
 # Watto's Space Emporium
 
-Offline first progressive web app (PWA) (because wifi isn't great in outer space)
+Offline first progressive web app (PWA) because wifi isn't great in outer space
+
+[Demo on now.sh](https://ns-aayzhyjhyi.now.sh)
 
 [Demo on now.sh](https://ns-aayzhyjhyi.now.sh)
 
@@ -52,7 +54,7 @@ serve -s build
 * Stylus
 * A11y
 * Responsive
-* performant
+* performant (99/100 Lighthouse score)
 
 
 
