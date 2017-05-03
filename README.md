@@ -14,7 +14,7 @@ Offline first progressive web app (PWA) (because wifi isn't great in outer space
 
 ```shell
 npm install
-npm run
+npm start
 ```
 
 Serves the app locally
