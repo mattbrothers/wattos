@@ -296,6 +296,15 @@ p {
           justify-content: center;
   height: 100vh;
 }
+@media screen and (min-width: 1400px) {
+  .ships {
+    -ms-flex-wrap: nowrap;
+        flex-wrap: nowrap;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
 .ships .ship {
   background-size: cover;
   background-color: #111;
@@ -324,6 +333,12 @@ p {
 @media screen and (max-width: 800px) {
   .ships .ship {
     padding: 3rem;
+  }
+}
+@media screen and (min-width: 1400px) {
+  .ships .ship {
+    min-width: calc(100vw / 3);
+    min-height: 100vh;
   }
 }
 .ships .ship:hover {

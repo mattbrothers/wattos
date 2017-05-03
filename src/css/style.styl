@@ -19,6 +19,11 @@
     align-items center
     justify-content center
     height 100vh
+
+    @media screen and (min-width: 1400px) {
+        flex-wrap nowrap
+        justify-content flex-start
+    }
     
     .ship 
         background-size cover
@@ -36,8 +41,13 @@
         backface-visibility hidden
         outline none
         border none
+
         @media screen and (max-width: 800px) {
             padding 3rem
+        }
+        @media screen and (min-width: 1400px) {
+            min-width calc(100vw / 3)
+            min-height 100vh
         }
         &:hover
             opacity 0.85

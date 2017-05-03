@@ -9,12 +9,19 @@ class Ship extends React.Component {
 		};
 	}
 
+	scroll(e) {
+	 	if(window.innerWidth >= 1400) {
+	 		window.scrollBy(e.deltaY, 0);
+	 	}
+	}
+
 	render() {
 		const { index } = this.props;
 		const shipName = this.props.details.name.toLowerCase().split(' ', 1);
 		
 		return (
 			<div
+				onWheel={this.scroll}
 				tabIndex="0" 
 				aria-label={ this.props.details.name }
 				className={`ship ${ shipName }`}

@@ -1,10 +1,14 @@
-[TIE Fighter](https://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
+![TIE Fighter](https://raw.githubusercontent.com/mattbrothers/wattos/code/src/css/images/twin.jpg)
 
 # Watto's Space Emporium
 
 Offline first progressive web app (PWA) (because wifi isn't great in outer space)
 
+[Demo on now.sh](https://ns-aayzhyjhyi.now.sh)
+
+
 [Demo at mattbrothers.net/wattos](https://mattbrothers.net/wattos)
+
 
 ## Installing 
 

@@ -2,23 +2,70 @@ import React from 'react';
 import CSSTransitionGroup from 'react-addons-css-transition-group';
 import { Link } from 'react-router';
 import ships from '../ships';
+// import base from '../base';
 
 class ShipDetail extends React.Component {
 	constructor(props) {
 		super(props);
 
+		// this.authHandler = this.authHandler.bind(this);
+
 		this.state = {
 			'ships': ships,
 			'cart;': '',
-			'isAvailable': 'true'
+			'isAvailable': true
 		}
 	}
 
-	addToCart(key) {
-		const cart = {...this.state.cart};
-		cart[key] = cart[key] + 1 || 1;
-		this.setState({ cart, 'isAvailable': false })
+	componentWillMount() {
+		const localStorageRef = localStorage.getItem(`ship-${this.props.params.shipId}`);
+		if(localStorageRef) {
+			this.setState({
+				'isAvailable': false
+			})
+		}
 	}
+
+	componentWillUpdate(nextProps, nextState) {
+		localStorage.setItem(`ship-${this.props.params.shipId}`,
+			JSON.stringify(this.state.isAvailable)
+		)
+	}
+
+	addToCart(key) {
+		// const cart = {...this.state.cart};
+		// base.authWithOAuthPopup('google', this.authHandler);
+		this.setState({'isAvailable': false });
+		// cart[key] = cart[key] + 1 || 1;
+		// this.setState({ cart, 'isAvailable': false })
+	}
+
+	// authHandler(err, authData) {
+	// 	if(err) {
+	// 		console.log(err);
+	// 		return
+	// 	}
+		
+	// 	// grab the store info
+	// 	const shipRef = base.database().ref(this.props.shipId)
+
+	// 	// query once for store data
+	// 	shipRef.once('value', (snapshot) => {
+	// 		const data = snapshot.val() || [];
+
+	// 		// claim as our own if no other owner
+	// 		if(!data.owner) {
+	// 			shipRef.set({
+	// 				owner: authData.user.uid
+	// 			})
+	// 		}
+
+	// 		this.setState({
+	// 			uid: authData.user.uid,
+	// 			owner: data.owner || authData.user.uid
+	// 		})
+	// 	});
+	// }
 
 	render() {
 		const shipId = this.props.params.shipId;
